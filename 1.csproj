@@ -1,0 +1,13 @@
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <Target Name="Build">
+    <Message Importance="High" Text="Project 1" />
+    <Message Importance="High" Text="OutputPath=$(OutputPath)" />
+  </Target>
+</Project>

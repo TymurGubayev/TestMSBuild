@@ -1,0 +1,12 @@
+<Project>
+  <Target Name="SetSkip">
+    <ItemGroup>
+      <ProjectReference Update="*">
+        <SkipNonexistentProjects>Build</SkipNonexistentProjects>
+      </ProjectReference>
+    </ItemGroup>
+  </Target>
+  <Target Name="BuildAll" DependsOnTargets="SetSkip">
+    <CallTarget Targets="Build"/>
+  </Target>
+</Project>

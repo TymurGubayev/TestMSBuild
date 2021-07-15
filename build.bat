@@ -1,0 +1,1 @@
+msbuild Complete.sln /p:Configuration=Debug /p:Platform=x86 /m /t:BuildAll /p:OutputPath=build
